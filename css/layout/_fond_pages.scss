@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(72, 149, 112, 1);
+}
+
+body main {
+    display:flex;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+body main .bg_color {
+    overflow: hidden;
+    width: 99%;
+    height: 1080px;
+    background: white;
+    border-radius: 1%;
+    border: 1px solid;
+}
