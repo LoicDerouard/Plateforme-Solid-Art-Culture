@@ -1,19 +1,19 @@
 /* unvisited link */
-a:link {
+.ESP:link {
     color: white;
   }
   
   /* visited link */
-  a:visited {
-    color: rgb(95, 3, 95);
+  .ESP:visited {
+    color: rgb(255, 255, 255);
   }
   
   /* mouse over link */
-  a:hover {
+  .ESP:hover {
     color: rgb(105, 115, 255);
   }
   
   /* selected link */
-  a:active {
+  .ESP:active {
     color: blue;
   }

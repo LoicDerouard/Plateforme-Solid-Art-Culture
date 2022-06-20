@@ -339,22 +339,22 @@ template {
 }
 
 /* unvisited link */
-a:link {
+.ESP:link {
   color: white;
 }
 
 /* visited link */
-a:visited {
-  color: rgb(95, 3, 95);
+.ESP:visited {
+  color: rgb(255, 255, 255);
 }
 
 /* mouse over link */
-a:hover {
+.ESP:hover {
   color: rgb(105, 115, 255);
 }
 
 /* selected link */
-a:active {
+.ESP:active {
   color: blue;
 }
 
@@ -428,6 +428,7 @@ h1 {
   top: 20%;
   left: 15%;
   text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 3.5em;
 }
 
 .flex_ImgFP {
