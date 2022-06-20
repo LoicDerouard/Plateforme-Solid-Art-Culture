@@ -1,0 +1,55 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    bottom: 0;
+    position: sticky;
+    color: white;
+    justify-content: space-between;
+
+    .footimp {
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .footadresse {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            padding: 0%;
+            margin: 5px;
+            font-size: 14px;
+        }
+    }
+
+    .footimp a {
+        display: flex;
+        margin: 20px;
+
+
+        .footimp a:hover {
+            color: #748E54;
+            cursor: pointer;
+        }
+
+
+    }
+
+    .reseauxfoot {
+        display: flex;
+        margin: 10px;
+
+        i {
+            margin: 10px;
+        }
+    }
+}
