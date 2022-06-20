@@ -338,22 +338,42 @@ template {
   display: none;
 }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(95, 3, 95);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(105, 115, 255);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 body {
   background-color: rgb(72, 149, 112);
 }
 
 body main {
   display: flex;
-  margin-top: 1%;
-  margin-left: 1%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 body main .bg_color {
   overflow: hidden;
-  width: 99%;
-  height: 1080px;
+  width: 97.5%;
   background: white;
-  border-radius: 1%;
+  border-radius: 25px;
   border: 1px solid;
 }
 
@@ -387,17 +407,17 @@ header a:hover {
   text-decoration: underline;
 }
 
-body .img_header {
+.img_header {
   margin: 0px auto;
   width: 100%;
-  height: 350px;
+  height: 450px;
   display: flex;
   border-bottom: 1px solid;
 }
 
-body .img_header img {
+.img_header img {
   width: 100%;
-  height: 350px;
+  height: 450px;
   display: flex;
 }
 
@@ -405,8 +425,41 @@ h1 {
   display: flex;
   color: white;
   position: absolute;
-  top: 25%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 15%;
   text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.flex_ImgFP {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  justify-content: space-around;
+}
+
+.ImgFP img {
+  width: 1000px;
+  min-height: 700px;
+  border: 1px solid;
+  display: flex;
+  border-radius: 25px;
+}
+
+.text_ImgFP {
+  width: 1000px;
+  min-height: 600px;
+  border: 1px solid;
+  display: flex;
+  background: rgb(170, 34, 34);
+  border-radius: 25px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text_ImgFP p {
+  font-size: 2.2em;
+  font-weight: 900;
+  margin: 3%;
+  color: white;
+  line-height: 150%;
 }/*# sourceMappingURL=style.css.map */
