@@ -1,7 +1,7 @@
 .img_header {
     margin: 0px auto;
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: flex;
     border-bottom: 1px solid;
 
@@ -9,7 +9,7 @@
 
 .img_header img {
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: flex;
 }
 
@@ -17,7 +17,7 @@ h1 {
     display: flex;
     color: white;
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 15%;
     text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 3.5em;
@@ -27,33 +27,18 @@ h1 {
 .flex_ImgFP {
     display: flex;
     flex-direction: row;
-    margin: 2%;
+    margin: 30px;
     justify-content: space-around;
 }
 
+.ImgFP {
+    display: flex;
+    margin-right: 30px;
+}
+
 .ImgFP img {
-    width: 1000px;
+    width: 900px;
     min-height: 700px;
     border: 1px solid;
-    display: flex;
     border-radius: 25px;
-}
-
-.text_ImgFP {
-    width: 1000px;
-    min-height: 600px;
-    border: 1px solid;
-    display: flex;
-    background: rgba(170, 34, 34, 1);
-    border-radius: 25px;
-    flex-direction: column;
-    text-align: center;
-}
-
-.text_ImgFP p {
-    font-size: 2.2em;
-    font-weight: 900;
-    margin: 3%;
-    color: white;
-    line-height: 150%;
 }

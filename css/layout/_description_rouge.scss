@@ -1,0 +1,16 @@
+.text_ImgFP {
+    min-height: 600px;
+    border: 1px solid;
+    display: flex;
+    background: rgba(170, 34, 34, 1);
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.text_ImgFP p {
+    font-size: 2.2em;
+    font-weight: 900;
+    margin: 3%;
+    color: white;
+    line-height: 150%;
+}

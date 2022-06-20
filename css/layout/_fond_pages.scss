@@ -4,15 +4,14 @@ body {
 
 body main {
     display:flex;
-    margin-top: 2.5%;
-    margin-left: 2.5%;
-    margin-bottom: 2.5%;
+    margin: 3%;
 }
 
 body main .bg_color {
     overflow: hidden;
-    width: 97.5%;
     background: white;
     border-radius: 25px;
     border: 1px solid;
+    display: flex;
+    justify-content: space-around;
 }
