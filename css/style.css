@@ -338,7 +338,6 @@ template {
   display: none;
 }
 
-<<<<<<< HEAD
 /* unvisited link */
 .ESP:link {
   color: white;
@@ -410,86 +409,53 @@ body main .bg_color {
   border: 1px solid;
   display: flex;
   justify-content: space-around;
-=======
+}
+
 footer {
   width: 100%;
   height: auto;
   background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-size: 18px;
   bottom: 0;
   position: -webkit-sticky;
   position: sticky;
   color: white;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 footer .footimp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  flex-direction: row;
   padding: 10px;
 }
-
 footer .footadresse {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 footer .footadresse p {
   padding: 0%;
   margin: 5px;
   font-size: 14px;
 }
-
 footer .footimp a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 20px;
 }
-
 footer .footimp a .footimp a:hover {
   color: #748E54;
   cursor: pointer;
 }
-
 footer .reseauxfoot {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 10px;
 }
-
 footer .reseauxfoot i {
   margin: 10px;
->>>>>>> 923144af4b83ddaf71fbac20928a675e1060ff5c
 }
 
 header {
@@ -522,7 +488,6 @@ header a:hover {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .img_header {
   margin: 0px auto;
   width: 100%;
@@ -564,8 +529,8 @@ h1 {
   min-height: 700px;
   border: 1px solid;
   border-radius: 25px;
-}/*# sourceMappingURL=style.css.map */
-=======
+}
+
 body {
   background-color: #748E54;
   width: 100%;
@@ -573,52 +538,34 @@ body {
 }
 
 .contactcomp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: white;
   margin: 50px;
   border-radius: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .formulaire {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 30px;
   margin-left: 100px;
 }
-
 .formulaire textarea {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 500px;
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 .formulaire .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 500px;
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 .formulaire .envfor {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 120px;
   height: 25px;
@@ -628,104 +575,52 @@ body {
   border: none;
   cursor: pointer;
 }
-
 .formulaire .envmess {
   height: 150px;
 }
-
 .formulaire .messenv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .formulaire h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin-right: 250px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .contact2 p {
   font-size: 20px;
   margin: 5px;
 }
-
 .contact2 h2 {
   margin-bottom: 10px;
 }
-
 .contact2 a {
   margin: 15px;
   font-size: 20px;
   text-decoration: none;
 }
-
 .contact2 .numpre {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin: 10px;
 }
-
 .contact2 .numtre {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin: 10px;
-}
-/*# sourceMappingURL=style.css.map */
->>>>>>> 923144af4b83ddaf71fbac20928a675e1060ff5c
+}/*# sourceMappingURL=style.css.map */
