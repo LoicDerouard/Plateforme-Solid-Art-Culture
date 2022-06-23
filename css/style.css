@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -376,6 +377,48 @@ template {
 /* selected link */
 .LLS:active {
   color: blue;
+}
+
+/* style du bouton */
+.menu-deroulant {
+  color: white;
+  padding: 16px;
+}
+
+/* On positionne (en relatif) le conteneur du menu déroulant 
+  pour pouvoir positionner le contenu de la liste juste 
+  en dessous du span */
+.menu-deroulant {
+  position: relative;
+  display: inline-block;
+}
+
+/* Contenu déroulant (caché par défaut) 
+   et positionné par rapport au conteneur */
+.menu-deroulant div {
+  display: none;
+  /* caché */
+  position: absolute;
+  background-color: #f9f9f9;
+  /* gris pale */
+  min-width: 160px;
+  z-index: 1;
+  /* en avant */
+}
+
+/* Les liens du menu déroulant */
+div div a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  /* on enlève le surlignement */
+  display: block;
+  /* on les affiche */
+}
+
+/* Au survol du menu, on affiche le contenu déroulant (qui était caché) */
+.menu-deroulant:hover div {
+  display: block;
 }
 
 .flex_TroisArticles {
