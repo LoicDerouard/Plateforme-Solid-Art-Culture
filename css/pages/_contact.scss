@@ -1,0 +1,105 @@
+body
+{
+    background-color: #748E54;
+    width: 100%;
+    height: 100%;
+}
+.contactcomp
+{
+    display: flex;
+    background-color: white;
+    margin: 50px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.formulaire
+{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 100px;
+
+    textarea {
+        display: flex;
+        width: 500px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .email{
+        display: flex;
+        width: 500px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .envfor
+    {
+        display: flex;
+        width: 120px;
+        height: 25px;
+        background-color: #FE5F00;
+        border-radius: 5px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .envmess
+    {
+        height: 150px;
+
+    }
+    .messenv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+.contact2
+    {
+        display: flex;
+        margin: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 250px;
+        flex-direction: column;
+
+        p 
+        {
+            font-size: 20px;
+            margin: 5px;
+        }
+        h2 
+        {
+            margin-bottom: 10px;
+        }
+        a
+        {
+            margin: 15px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .numpre
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+        }
+        .numtre
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+        }
+    }
