@@ -17,3 +17,26 @@
   .ESP:active {
     color: blue;
   }
+
+
+
+
+  /* unvisited link */
+.LLS:link {
+  color: rgb(255, 0, 0);
+}
+
+/* visited link */
+.LLS:visited {
+  color: rgb(146, 30, 255);
+}
+
+/* mouse over link */
+.LLS:hover {
+  color: rgb(105, 115, 255);
+}
+
+/* selected link */
+.LLS:active {
+  color: blue;
+}

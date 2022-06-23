@@ -1,0 +1,28 @@
+.flex_NosActivites {
+    display: flex;
+    margin: 3%;
+}
+
+.NosActivites {
+    flex:1;
+    margin: 2%;
+    content: '';
+    display: flex;
+    width: 100%;
+    border: 1px solid;
+    flex-direction: column;
+    // font-size: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #ffffff;
+}  
+
+.textNosActivites {
+    margin: 2%;
+    font-size: 1.4em;
+}
+
+.titre {
+    text-align: center;
+    text-decoration: underline;
+    color: #FE5F00;
+}

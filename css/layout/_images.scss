@@ -40,5 +40,13 @@ h1 {
     width: 900px;
     min-height: 700px;
     border: 1px solid;
-    border-radius: 25px;
+    // border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.TroisArticles img {
+    width: auto;
+    max-width: 100%;
+    max-height: 50%;
+    border-bottom: 1px solid;
 }
