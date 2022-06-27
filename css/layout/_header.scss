@@ -1,16 +1,67 @@
-header{
-    width: 100%;
-    height: 80px;
-    background-color: #FE5F00;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 22px;
-   
-    .don{
+@media screen and (min-width: 1260px) {
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: #FE5F00;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 22px;
+    }
+        .headertext{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+            width: 100%;
+        .don {
+            background-color: black;
+            display: flex;
+            width: 250px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+        }
+
+        a {
+            color: white;
+            display: flex;
+            text-decoration: none;
+            margin: 30px;
+        }
+
+        a:hover {
+            color: #748E54;
+            text-decoration: underline;
+        }
+    }
+    .sidenav{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: #FE5F00;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+    .headertext{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+        width: 100%;
+    .don {
         background-color: black;
         display: flex;
-        width: 250px;
+        width: 150px;
         height: 80px;
         display: flex;
         align-items: center;
@@ -19,12 +70,89 @@ header{
     }
     a {
         color: white;
-       display: flex;
-       text-decoration: none;
-       margin: 30px;
+        display: flex;
+        text-decoration: none;
+        margin: 30px;
     }
-    a:hover{
+
+    a:hover {
         color: #748E54;
         text-decoration: underline;
     }
+}
+.sidenav{
+    display: none;
+}
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: #FE5F00;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+
+    .don {
+        display: none;
+    }
+    .headertext{
+        display: none;
+    }
+    .sidenav {
+        height: 100%;
+        width: 350px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -350px;
+        background-color: #FE5F00;
+        padding-top: 60px;
+        transition: left 0.5s ease;
+      }
+      
+      /* Sidenav menu links */
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #111;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #748E54;
+      }
+      
+      .sidenav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      /* Active class */
+      .sidenav.active {
+        left: 0;
+      }
+      
+      /* Close btn */
+      .sidenav .close {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        font-size: 36px;
+      }
+      
+      /* Icône burger */
+      .burger-icon span {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0 0 10px;
+      }
 }
