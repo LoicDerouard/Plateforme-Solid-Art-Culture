@@ -443,6 +443,34 @@ div div a {
   font-size: 1.5em;
 }
 
+.flex_Article {
+  display: flex;
+  margin: 3%;
+}
+
+.ArticleActu {
+  margin: 2%;
+  content: "";
+  display: flex;
+  width: 100%;
+  border: 1px solid;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #ffffff;
+}
+
+.textActu {
+  margin: 10%;
+  margin-top: 50%;
+  font-size: 1.4em;
+}
+
+.titre {
+  text-align: center;
+  text-decoration: underline;
+  color: #FE5F00;
+}
+
 .text_ImgFP {
   min-height: 600px;
   border: 1px solid;
@@ -605,13 +633,24 @@ h1 {
   border-bottom: 1px solid;
 }
 
+.ImgActu {
+  display: flex;
+  margin-right: 30px;
+}
+
+.ImgActu img {
+  width: 900px;
+  min-height: 700px;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
 .flex_NosActivites {
   display: flex;
   margin: 3%;
 }
 
 .NosActivites {
-  flex: 1;
   margin: 2%;
   content: "";
   display: flex;
