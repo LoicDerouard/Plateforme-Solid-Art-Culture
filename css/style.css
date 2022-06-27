@@ -445,14 +445,12 @@ div div a {
 
 .flex_Article {
   display: flex;
-  margin: 3%;
+  margin: 2%;
 }
 
 .ArticleActu {
+  width: 500%;
   margin: 2%;
-  content: "";
-  display: flex;
-  width: 100%;
   border: 1px solid;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -460,9 +458,11 @@ div div a {
 }
 
 .textActu {
-  margin: 10%;
-  margin-top: 50%;
-  font-size: 1.4em;
+  margin: 2%;
+  margin-top: 2%;
+  font-size: 1.2em;
+  line-height: 22px;
+  text-indent: 0;
 }
 
 .titre {
@@ -481,7 +481,7 @@ div div a {
 }
 
 .text_ImgFP p {
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-weight: 900;
   margin: 3%;
   color: white;
@@ -509,7 +509,7 @@ body main .bg_color {
 footer {
   width: 100%;
   height: auto;
-  background-color: black;
+  background-color: rgb(50, 47, 51);
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -518,6 +518,7 @@ footer {
   position: sticky;
   color: white;
   justify-content: space-between;
+  border-top: solid 1px black;
 }
 footer .footimp {
   display: flex;
@@ -615,13 +616,16 @@ h1 {
 }
 
 .ImgFP {
-  display: flex;
   margin-right: 30px;
 }
 
 .ImgFP img {
-  width: 900px;
-  min-height: 700px;
+  margin: 2%;
+  min-width: 500px;
+  min-height: 600px;
+  max-width: 95%;
+  max-height: 95%;
+  display: block;
   border: 1px solid;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -635,14 +639,15 @@ h1 {
 
 .ImgActu {
   display: flex;
-  margin-right: 30px;
+  justify-content: center;
 }
 
 .ImgActu img {
-  width: 900px;
-  min-height: 700px;
-  border: 1px solid;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border: solid 1px black;
+  margin: 2%;
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
 }
 
 .flex_NosActivites {
@@ -685,6 +690,19 @@ h1 {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.titre1 {
+  text-align: center;
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.Donations {
+  display: flex;
+  padding-top: 2%;
+  flex-direction: column;
 }
 
 body {

@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: rgba(50, 47, 51, 1);
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -9,6 +9,7 @@ footer {
     position: sticky;
     color: white;
     justify-content: space-between;
+    border-top: solid 1px black;
 
     .footimp {
         display: flex;

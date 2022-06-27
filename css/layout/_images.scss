@@ -32,15 +32,17 @@ h1 {
 }
 
 .ImgFP {
-    display: flex;
     margin-right: 30px;
 }
 
 .ImgFP img {
-    width: 900px;
-    min-height: 700px;
+    margin: 2%;
+    min-width: 500px;
+    min-height: 600px;
+    max-width: 95%;
+    max-height: 95%;
+    display: block;
     border: 1px solid;
-    // border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
@@ -55,13 +57,13 @@ h1 {
 
 .ImgActu {
     display: flex;
-    margin-right: 30px;
+    justify-content: center;
 }
 
 .ImgActu img {
-    width: 900px;
-    min-height: 700px;
-    border: 1px solid;
-    // border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: solid 1px black;
+    margin: 2%;
+    max-width: 75%;
+    max-height: 75%;
+    display: block;
 }
