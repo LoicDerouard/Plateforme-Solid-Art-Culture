@@ -471,6 +471,16 @@ div div a {
   color: #FE5F00;
 }
 
+#dons {
+  width: 150px;
+  height: 50px;
+  margin-inline: auto;
+  background-color: rgb(255, 0, 0);
+  border-radius: 25px;
+  color: white;
+  font-size: larger;
+}
+
 .text_ImgFP {
   min-height: 600px;
   border: 1px solid;
@@ -478,6 +488,7 @@ div div a {
   background: rgb(170, 34, 34);
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 2%;
 }
 
 .text_ImgFP p {
@@ -495,12 +506,13 @@ body {
 body main {
   display: flex;
   margin: 3%;
+  justify-content: center;
 }
 
 body main .bg_color {
   overflow: hidden;
   background: white;
-  border-radius: 25px;
+  border-radius: 10px;
   border: 1px solid;
   display: flex;
   justify-content: space-around;
@@ -611,21 +623,14 @@ h1 {
 .flex_ImgFP {
   display: flex;
   flex-direction: row;
-  margin: 30px;
+  margin: 2%;
   justify-content: space-around;
 }
 
-.ImgFP {
-  margin-right: 30px;
-}
-
-.ImgFP img {
+.flex_ImgFP img {
   margin: 2%;
-  min-width: 500px;
-  min-height: 600px;
-  max-width: 95%;
-  max-height: 95%;
-  display: block;
+  max-width: 500px;
+  max-height: 600px;
   border: 1px solid;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -656,7 +661,6 @@ h1 {
 }
 
 .NosActivites {
-  margin: 2%;
   content: "";
   display: flex;
   width: 100%;
@@ -664,6 +668,7 @@ h1 {
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-color: #ffffff;
+  margin-right: inherit;
 }
 
 .textNosActivites {
@@ -675,6 +680,14 @@ h1 {
   text-align: center;
   text-decoration: underline;
   color: #FE5F00;
+}
+
+.NosActivites2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: center;
 }
 
 .video-responsive {
@@ -699,12 +712,44 @@ h1 {
   font-weight: bold;
 }
 
+@media screen and (max-width: 1300px) {
+  html body {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
+
+  body main .bg_color {
+    text-align: center;
+  }
+
+  .flex_ImgFP {
+    display: contents;
+    flex-direction: columns;
+    justify-content: center;
+  }
+
+  .ImgFP {
+    margin: 10px;
+    text-align: center;
+    display: block;
+  }
+
+  .NosActivites {
+    margin-bottom: 20px;
+  }
+}
 .Donations {
   display: flex;
   padding-top: 2%;
   flex-direction: column;
 }
 
+@media screen and (max-width: 1138px) {
+  .flex_NosActivites {
+    flex-direction: column;
+  }
+}
 body {
   background-color: #748E54;
   width: 100%;
@@ -740,6 +785,7 @@ body {
   margin-bottom: 10px;
 }
 .formulaire .envfor {
+  justify-content: center;
   display: flex;
   width: 120px;
   height: 25px;

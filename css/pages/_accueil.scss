@@ -4,3 +4,31 @@
     color: #ffffff;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1300px) {
+    
+    html body {
+        min-width: fit-content;
+    }
+    
+    body main .bg_color {
+        text-align: center;
+    }
+
+    .flex_ImgFP {
+    display: contents;
+    flex-direction: columns;
+    justify-content: center;
+        }
+    .ImgFP {
+        margin: 10px;
+        text-align: center;
+        display: block
+        }
+
+        .NosActivites {
+            margin-bottom: 20px;
+        }  
+    
+
+}

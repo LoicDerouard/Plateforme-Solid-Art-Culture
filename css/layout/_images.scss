@@ -27,21 +27,18 @@ h1 {
 .flex_ImgFP {
     display: flex;
     flex-direction: row;
-    margin: 30px;
+    margin: 2%;
     justify-content: space-around;
 }
 
-.ImgFP {
-    margin-right: 30px;
-}
+// .ImgFP {
+//     display: flex;
+// }
 
-.ImgFP img {
+.flex_ImgFP img {
     margin: 2%;
-    min-width: 500px;
-    min-height: 600px;
-    max-width: 95%;
-    max-height: 95%;
-    display: block;
+    max-width: 500px;
+    max-height: 600px;
     border: 1px solid;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
